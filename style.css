@@ -1,0 +1,35 @@
+.products{
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+    justify-content:center;
+    padding:40px;
+}
+
+.product{
+    width:260px;
+    background:#222;
+    color:white;
+    border-radius:15px;
+    overflow:hidden;
+    text-align:center;
+    padding:20px;
+}
+
+.product img{
+    width:100%;
+    border-radius:10px;
+}
+
+button{
+    background:#ff4b2b;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ff6633;
+}
