@@ -55,3 +55,12 @@ button {
     font-size: 17px;
     font-weight: bold;
 }
+
+.shop-notice{
+    background:#ff9800;
+    color:#111;
+    text-align:center;
+    padding:12px 20px;
+    font-weight:600;
+    margin-top:90px;
+}
