@@ -122,3 +122,7 @@ nav ul li a{
 nav ul li a:hover{
     color:#e10600;
 }
+
+header{
+    padding:10px 30px;
+}
