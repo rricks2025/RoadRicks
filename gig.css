@@ -1,7 +1,11 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ROADRICKS | Gigs</title>
+.gigs {
+    max-width:900px;
+    margin:60px auto;
+    padding:0 20px;
+}
 
-    <link rel="stylesheet" href="gig.css">
-</head>
+.gigs h2 {
+    text-align:center;
+    font-size:2rem;
+    margin-bottom:30px;
+}
