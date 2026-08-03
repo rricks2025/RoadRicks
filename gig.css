@@ -126,3 +126,22 @@ nav ul li a:hover{
 header{
     padding:10px 30px;
 }
+
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 50px;
+    background:#111;
+}
+
+.logo{
+    width:120px;
+    height:auto;
+}
+
+nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
