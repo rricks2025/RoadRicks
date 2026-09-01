@@ -148,25 +148,29 @@ nav ul{
 }
 
 
-.gig-container {
+.gigs-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 24px;
     align-items: stretch;
 }
 
 .gig-card {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 320px;
+    padding: 28px;
+    border-left: 3px solid red;
+    border-radius: 12px;
 }
 
-.gig-card-content {
+.gig-content {
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 
-.gig-card .view-venue {
+.view-venue {
     margin-top: auto;
+    align-self: flex-start;
 }
