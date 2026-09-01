@@ -146,3 +146,27 @@ nav ul{
     gap:30px;
     list-style:none;
 }
+
+
+.gig-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: stretch;
+}
+
+.gig-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.gig-card-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.gig-card .view-venue {
+    margin-top: auto;
+}
