@@ -174,3 +174,8 @@ nav ul{
     margin-top: auto;
     align-self: flex-start;
 }
+
+.gigs-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
